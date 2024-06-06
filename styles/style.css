@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "norsebold";
+  src: url("/font/norse-bold-webfont.woff2") format("woff2"),
+    url("/font/norse-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.side-image {
+  position: relative;
+  flex: 1;
+}
+
+.side-image img {
+  width: 100%;
+  height: auto;
+}
+
+.side-image .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 125px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.side-image .logo img {
+  width: 80px;
+}
+
+.side-image .logo h2 {
+  font-family: "norsebold", monospace;
+  font-size: 5rem;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.side-image p {
+  position: absolute;
+  bottom: 25px;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+
+.form {
+  flex: 2;
+  box-sizing: border-box;
+  align-self: center;
+  position: relative;
+}
+
+.form-div {
+  padding: 0px 2.5rem;
+  padding-right: 13rem;
+}
+.form-div h1 {
+  font-size: 1.5rem;
+}
+.form-div h2 {
+  font-size: 1.5rem;
+}
+
+.form-inputs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-input {
+  width: 50%;
+}
+.form-input p {
+  color: #111111;
+  font-size: 1.2rem;
+}
+.form-inputs label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-inputs input {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  padding: 5px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #e5e7eb;
+}
+
+.form-inputs input:invalid {
+  border: 1px solid red;
+}
+
+.form-inputs input:focus {
+  box-shadow: inset 1px 1px 1px 1px #596d48;
+  outline: none;
+  border: 1px solid blue;
+}
+
+.password {
+  position: relative;
+}
+
+.form-input input[type="password"]::before {
+  position: absolute;
+  content: "Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters";
+  top: 0;
+  left: 0;
+}
+
+.border {
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(#ddd, #eee);
+    position: absolute;
+    top: 28rem;
+    left: 0;
+}
+
+.form-button button {
+  background-color: #596d48;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 5rem;
+}
+
+a {
+  color: #596d48;
+  text-decoration: none;
+  font-weight: bold;
+}
