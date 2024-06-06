@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form | The Odin Project</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="container">
+    <div class="side-image">
+        <div class="logo">
+            <img src="/images/odin-lined.png" alt="Odin logo">
+            <h2>Odin</h2>
+        </div>
+        <img class="image" src="/images/halie-west-25xggax4bSA-unsplash.jpg" alt="Photo by Halie west on unsplash">
+        <p class="photo_desc">Photo by Halie west on Unsplash</p>
+    </div>
+    <div class="form">
+        <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h1>
+        <h2>You <em>know</em> you want to.</h2>
+        <form action="#">
+            <p>Let's do this!</p>
+            <div class="form-inputs">
+                <div class="form-input">
+                    <label for="first_name">First Name <span aria-label="required">*</span></label>
+                    <input type="text" name="first_name" id="first_name" required placeholder="Enter First Name">
+                </div>
+                <div class="form-input">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name" placeholder="Enter Last Name">
+                </div>
+                <div class="form-input">
+                    <label for="email">Email <span aria-label="required">*</span></label>
+                    <input type="text" name="email" id="email" required placeholder="abc@abc.abc">
+                </div>
+                <div class="form-input">
+                    <label for="phone_number">Phone Number</label>
+                    <input type="tel" name="phone_number" id="phone_number">
+                </div>
+                <div class="form-input">
+                    <label for="password">Password <span aria-label="required">*</span></label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="form-input">
+                    <label for="confirm_password">Confirm Password <span aria-label="required">*</span></label>
+                    <input type="password" name="confirm_password" id="confirm_password" required>
+                </div>
+            </div>
+            <div class="form-button">
+                <button type="submit">Create Account</button>
+            </div>
+            <div class="form-input">
+                <p>Already have an account? <a href="#">Login</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
