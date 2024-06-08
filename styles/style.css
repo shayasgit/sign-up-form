@@ -19,7 +19,7 @@
 .side-image {
   position: relative;
   flex: 1;
-  background: url("/images/halie-west-25xggax4bSA-unsplash.jpg");
+  background: url("../images/halie-west-25xggax4bSA-unsplash.jpg");
   background-size: cover;
 }
 
